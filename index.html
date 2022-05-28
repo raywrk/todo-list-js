@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+  <title>Todo List</title>
+</head>
+<body>
+  <div class="messageAlert">
+    <p>Preencha uma atividade!</p>
+  </div>
+  <h2 class="animate__heartBeat">Todo List</h2>
+  <div class="contain">
+    <div class="contain-header">
+      <div>
+        <i class="fa-solid fa-list navIncompletes"></i>      
+      </div>
+      <div>
+        <i class="fa-solid fa-list-check navCompletes"></i>
+      </div>
+    </div>
+
+    <div class="incompleteList">
+      <div class="displayIncompleteResult"></div>
+    </div>
+  
+    <div class="completeList">
+      <div class="displayCompleteResult"></div> 
+    </div>
+
+  </div>
+
+  <div class="inputContainer">
+    <input class="inputList" type="text">
+    <i class="fa-solid fa-paper-plane btnSend"></i>
+    <i class="fa-solid fa-circle-plus btnAddList"></i>
+  </div>
+
+  <footer>
+    <h3>Desenvolvido por:</h3>
+    <p>Ray Gabriel e Eduardo Barroso - 28/05/2022</p>
+  </footer>
+</body>
+<script src="js.js"></script>
+</html>

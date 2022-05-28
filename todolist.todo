@@ -1,0 +1,102 @@
+{
+  "todotree": {
+    "tree": [
+      {
+        "key": 1653759854293,
+        "children": [
+          {
+            "key": 1653759868730,
+            "children": [],
+            "todo": {
+              "content": "input hidden - Eduardo",
+              "id": 1653759868730,
+              "level": "default",
+              "done": true,
+              "editing": false
+            }
+          },
+          {
+            "key": 1653760645952,
+            "children": [],
+            "todo": {
+              "content": "input requerido - Eduardo",
+              "id": 1653760645952,
+              "level": "default",
+              "done": true,
+              "editing": false
+            }
+          },
+          {
+            "key": 1653762062916,
+            "children": [],
+            "todo": {
+              "content": "navegação entre listas - Ray",
+              "id": 1653762062916,
+              "level": "default",
+              "done": true,
+              "editing": false
+            }
+          },
+          {
+            "key": 1653769567801,
+            "children": [],
+            "todo": {
+              "content": "transition e hover botões add e send - Eduardo",
+              "id": 1653769567801,
+              "level": "default",
+              "done": true,
+              "editing": false
+            }
+          },
+          {
+            "key": 1653770579450,
+            "children": [],
+            "todo": {
+              "content": "message alerta temporario estilizado - Ray",
+              "id": 1653770579450,
+              "level": "default",
+              "done": true,
+              "editing": false
+            }
+          },
+          {
+            "key": 1653773944768,
+            "children": [],
+            "todo": {
+              "content": "suavizar as bordas os item list - Eduardo",
+              "id": 1653773944768,
+              "level": "default",
+              "done": false,
+              "editing": false
+            }
+          },
+          {
+            "key": 1653773970233,
+            "children": [],
+            "todo": {
+              "content": "suavizar a cor dos botões da lista - Eduardo",
+              "id": 1653773970233,
+              "level": "default",
+              "done": false,
+              "editing": false
+            }
+          }
+        ],
+        "todo": {
+          "content": "Front-End",
+          "id": 1653759854293,
+          "level": "default",
+          "done": false,
+          "editing": false
+        }
+      }
+    ],
+    "expandKeys": [
+      1653759854293
+    ],
+    "schema": "https://github.com/Saber2pr/vsc-ext-todolist/blob/master/src/api/type.ts#L3",
+    "add_mode": "bottom",
+    "virtual": false,
+    "showLine": false
+  }
+}
