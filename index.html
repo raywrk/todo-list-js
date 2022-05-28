@@ -15,40 +15,45 @@
   <title>Todo List</title>
 </head>
 <body>
-  <div class="messageAlert">
-    <p>Preencha uma atividade!</p>
-  </div>
-  <h2 class="animate__heartBeat">Todo List</h2>
-  <div class="contain">
-    <div class="contain-header">
-      <div>
-        <i class="fa-solid fa-list navIncompletes"></i>      
-      </div>
-      <div>
-        <i class="fa-solid fa-list-check navCompletes"></i>
-      </div>
-    </div>
+  <div class="containAll">
 
-    <div class="incompleteList">
-      <div class="displayIncompleteResult"></div>
+    <div class="messageAlert">
+      <p>Preencha uma atividade!</p>
+    </div>
+    <h2 class="animate__heartBeat">Todo List</h2>
+    <div class="contain">
+      <div class="contain-header">
+        <div>
+          <i class="fa-solid fa-list navIncompletes"></i>      
+        </div>
+        <div>
+          <i class="fa-solid fa-list-check navCompletes"></i>
+        </div>
+      </div>
+  
+      <div class="incompleteList">
+        <div class="displayIncompleteResult"></div>
+      </div>
+    
+      <div class="completeList">
+        <div class="displayCompleteResult"></div> 
+      </div>
+  
     </div>
   
-    <div class="completeList">
-      <div class="displayCompleteResult"></div> 
+    <div class="inputContainer">
+      <input class="inputList" type="text">
+      <i class="fa-solid fa-paper-plane btnSend"></i>
+      <i class="fa-solid fa-circle-plus btnAddList"></i>
     </div>
-
+  
+    <footer>
+      <h3>Desenvolvido por:</h3>
+      <p>Ray Gabriel e Eduardo Barroso - 28/05/2022</p>
+    </footer>
+    
   </div>
 
-  <div class="inputContainer">
-    <input class="inputList" type="text">
-    <i class="fa-solid fa-paper-plane btnSend"></i>
-    <i class="fa-solid fa-circle-plus btnAddList"></i>
-  </div>
-
-  <footer>
-    <h3>Desenvolvido por:</h3>
-    <p>Ray Gabriel e Eduardo Barroso - 28/05/2022</p>
-  </footer>
 </body>
 <script src="js.js"></script>
 </html>
